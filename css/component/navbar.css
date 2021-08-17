@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #ffffff;
+}
+
+.sticky {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.navbar .dropdown,
+.navbar .nav-link {
+    color: #555555;
+    outline: invert;
+    border: none;
+}
+
+.navbar-toggler {
+    color: #C5196B;
+}
+
+.navbar .nav-link i {
+    color: #C5196B;
+}

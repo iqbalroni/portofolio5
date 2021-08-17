@@ -1,0 +1,157 @@
+.swiper {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.swiper .text-title {
+    font-size: 15px;
+    color: #555555;
+}
+
+.swiper .title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #C5196B;
+    letter-spacing: 1px;
+}
+
+.swiper .garis {
+    height: 3px;
+    width: 60%;
+    background-color: #FFD700;
+    border: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide i {
+    color: #FFD700;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    min-height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* height: 350px; */
+
+    /* jika ingi memberi shadow efek dari card cardnya */
+
+
+    /* dan jika memberi efek blur */
+    filter: blur(2px);
+    border-radius: 10px;
+    background-color: #F2F3F7;
+}
+
+.swiper-slide-active {
+    filter: blur(0);
+    background-color: #FEFCFE;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+.testimonialBox {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #555555;
+}
+
+.testimonialBox .add {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #C5196B;
+    border-radius: 50%;
+}
+
+.testimonialBox .icon-add {
+    color: #ffffff;
+
+}
+
+.testimonialBox .detail {
+    text-align: center;
+}
+
+.testimonialBox img {
+    width: 120px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 30px;
+    margin-top: -100px;
+}
+
+.testimonialBox h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #555555;
+}
+
+.testimonialBox h5 {
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #C5196B;
+}
+
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right {
+    background-image: none;
+}
+
+@media screen and (max-width : 700px) {
+    .swiper {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .swiper .title {
+        font-size: 25px;
+    }
+
+    .swiper .text-title {
+        font-size: 15px;
+    }
+
+    .swiper .garis {
+        height: 3px;
+        width: 40%;
+        background-color: #FFD700;
+        border: none;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        min-height: 350px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
