@@ -62,7 +62,7 @@
 .swiper-slide-active {
     filter: blur(0);
     background-color: #FEFCFE;
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .testimonialBox {
@@ -158,9 +158,5 @@
         min-height: 350px;
         margin-left: 20px;
         margin-right: 20px;
-    }
-
-    .swiper-container {
-        width: 90%;
     }
 }

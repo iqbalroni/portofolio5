@@ -47,6 +47,10 @@
         padding-bottom: 50px;
     }
 
+    .contact .hub {
+        display: block;
+    }
+
     .contact .title {
         font-size: 25px;
     }

@@ -36,19 +36,21 @@
     .website .jumbotron {
         height: auto;
         padding-bottom: 50px;
+        width: 80%;
+        margin: 0 auto;
     }
 
-    .website .col-sm-4 {
-        width: 50%;
+    .website .container {
+        width: 90%;
     }
 
     .website .btn {
-        font-size: 12px;
+        font-size: 18px;
         background-color: #C5196B;
         color: #ffffff;
     }
 
     .website .card-title {
-        font-size: 15px;
+        font-size: 20px;
     }
 }

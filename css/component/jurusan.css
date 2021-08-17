@@ -69,15 +69,15 @@
         padding-top: 30px;
     }
 
-    .jurusan .col-sm-3 {
-        width: 50%;
+    .jurusan .container {
+        width: 80%;
     }
 
     .jurusan .text-title {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .jurusan .title {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
