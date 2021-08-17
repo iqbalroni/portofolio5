@@ -83,6 +83,11 @@
     flex-direction: column;
     background-color: #C5196B;
     border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+.testimonialBox .add:hover {
+    transform: scale(1.1);
 }
 
 .testimonialBox .icon-add {
@@ -153,5 +158,9 @@
         min-height: 350px;
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    .swiper-container {
+        width: 90%;
     }
 }

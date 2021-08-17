@@ -60,6 +60,7 @@
     }
 
     .contact .form-control {
+        margin: 0 auto;
         width: 90%;
         border-radius: 10px;
         font-size: 15px;

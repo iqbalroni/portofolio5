@@ -49,3 +49,9 @@ body {
     background-color: #C5196B;
     border-radius: 30px;
 }
+
+@media screen and (max-width : 700px) {
+    .garis {
+        width: 20%;
+    }
+}
