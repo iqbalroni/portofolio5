@@ -32,10 +32,13 @@
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 1px;
+    color: #C5196B;
 }
 
 .agenda .alert {
     border: none;
+    background: rgba(197, 25, 107, 0.20);
+    color: #555555;
 }
 
 .agenda .alert p {

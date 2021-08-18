@@ -13,10 +13,25 @@
     border: none;
 }
 
+.navbar .dropdown {
+    padding: 0;
+    margin: 0;
+}
+
 .navbar-toggler {
     color: #C5196B;
 }
 
 .navbar .nav-link i {
     color: #C5196B;
+}
+
+
+.navbar .dropdown i {
+    color: #555555;
+}
+
+.navbar .dropdown-menu {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
