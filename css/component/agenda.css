@@ -26,6 +26,25 @@
     color: #555555;
 }
 
+.agenda .alert h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.agenda .alert {
+    border: none;
+}
+
+.agenda .alert p {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
 @media screen and (max-width : 700px) {
     .agenda .jumbotron {
         height: auto;

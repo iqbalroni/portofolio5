@@ -31,22 +31,25 @@
     font-size: 2.0em;
     color: #fefefe;
     width: 90%;
+    font-weight: 700;
 }
 
 .right-slider p {
     font-size: 1em;
     color: #fefefe;
     width: 85%;
+    padding-left: 10px;
 }
 
 .right-slider a button {
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     border: none;
     background-color: #C5196B;
     text-decoration: none;
     margin-top: 15px;
     color: #fefefe;
+    margin-left: 10px;
 }
 
 .right-slider a button:hover {
@@ -116,6 +119,35 @@
 
 @media screen and (max-width : 700px) {
 
+    .right-slider h1 {
+        font-size: 20px;
+        color: #fefefe;
+        width: 80%;
+        font-weight: 700;
+    }
+
+
+    .right-slider p {
+        font-size: 12px;
+        color: #fefefe;
+        width: 85%;
+        padding: 0;
+        margin: 0;
+        padding-left: 10px;
+    }
+
+    .right-slider a button {
+        font-size: 12px;
+        padding: 7px;
+        border-radius: 10px;
+        border: none;
+        background-color: #C5196B;
+        text-decoration: none;
+        margin-top: 5px;
+        color: #fefefe;
+        margin-left: 10px;
+    }
+
     .slider-container {
         margin-top: 50px;
     }
@@ -128,25 +160,26 @@
     }
 
     .slider-container .left-slider {
-        position: relative;
         height: 100%;
         width: 100%;
-        z-index: 100;
-    }
-
-    .left-slider .banner {
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: transparent;
+        z-index: 5;
     }
 
     .slider-container .right-slider {
         height: 100%;
         width: 100%;
+        z-index: 6;
+    }
+
+    .right-slider .banner {
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 40px;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+        color: #fefefe;
     }
 
     .slider-container .action-button .down-button {
