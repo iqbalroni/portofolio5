@@ -29,7 +29,6 @@
 .agenda .alert {
     border: none;
     background: rgba(197, 25, 107, 0.20);
-    color: #555555;
 }
 
 .agenda .alert h4 {
@@ -46,6 +45,7 @@
     margin: 0;
     font-size: 15px;
     font-weight: 400;
+    color: #555555;
 }
 
 @media screen and (max-width : 700px) {
